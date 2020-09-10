@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+    <script src="js/Vector.js"></script>
+    <script src="js/Stage.js"></script>
+    <script src="js/BulletData.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Item.js"></script>
+    <script src="js/Boom.js"></script>
+    <script src="js/Explosion.js"></script>
+    <script src="js/Bullet.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Enemy.js"></script>
+    <script src="js/Background.js"></script>
+    <script src="js/App.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        window.addEventListener("load", (e)=>{
+            let app = new App();
+        })
+    </script>
+    <script src="./js/Web.js"></script>
+    <script>
+        window.addEventListener("click", (e)=>{
+            ranking();
+        })
+    </script>
+
+</head>
+<body>
+    <header>
+        <ul class="nav">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="#" class="rank_btn">Ranking</a></li>
+            <li><a href="index.html">Game</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </header>
+    <section id="background">
+        <div class="content">
+            <canvas id="myGame" width="400" height="650"></canvas>
+        </div>
+    </section>
+
+    <div class="popup">
+    <div class="popup_box">
+        <p class="sub_text">Ranking</p>
+        <i class="fas fa-times close"></i>
+        <div class="rank_content">
+            <div class="rank_template">
+                <p>1</p>
+                <p>user1</p>
+                <p>50</p>
+                <p>2020-01-15</p>
+            </div>
+            <div class="rank_template">
+                <p>1</p>
+                <p>user1</p>
+                <p>50</p>
+                <p>2020-01-15</p>
+            </div>
+            <div class="rank_template">
+                <p>1</p>
+                <p>user1</p>
+                <p>50</p>
+                <p>2020-01-15</p>
+            </div>
+            <div class="rank_template">
+                <p>1</p>
+                <p>user1</p>
+                <p>50</p>
+                <p>2020-01-15</p>
+            </div>
+            <div class="rank_template">
+                <p>1</p>
+                <p>user1</p>
+                <p>50</p>
+                <p>2020-01-15</p>
+            </div>
+        </div>
+        <button class="next_page btn">next</button>
+        <button class="prev_page btn">prev</button>
+    </div>
+</div>
+</body>
+</html>
+
+<!--http://itch.io/-->
